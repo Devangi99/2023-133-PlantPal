@@ -1,0 +1,219 @@
+/* Style for the "VISION AND MISSION" section */
+.vision-mission-section {
+    position: relative;
+  }
+  
+  .vision-mission-background {
+    background-image: url('../images/banner1.png');
+    background-size: cover;
+    filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  /* Style for the white box */
+  .vision-mission-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    
+    height:430px;
+    font-family: Tahoma, Verdana, sans-serif; /* Change the font-family to your preference */
+  }
+  
+  /* Style for the "VISION" and "Mission" headers */
+  .vision-mission-header {
+    color: rgb(2, 57, 2); /* Header text color */
+    font-size: 30px; /* Header font size */
+    font-weight: bold;
+    margin-top: 27;
+    align-items: center; /* Bold font for headers */
+    margin-top: 10px; /* Add some top margin for headers */
+  }
+  
+  /* Style for the text inside the white box */
+  .vision-mission-text {
+    font-size: 24px;
+    font-style: semi-bold; /* Italic font style */
+    margin-top: 25px;
+    font-family:Allan;
+    font-style: oblique;
+    color: rgb(7, 43, 7); /* Add some top margin for text */
+  }
+  .black {
+    color: #63ce33;
+    font-weight: 208;
+   }
+   .whitey{
+     color: rgb(3, 49, 3);
+     font-weight: 208;
+   }
+  .testy{
+     font-size: 26px;
+     font-family:Allan;
+     align-self: center;
+     padding-top: 2;
+     padding-bottom: 2;
+     color: rgb(3, 79, 10);
+  }
+
+  /* Add spacing below the "VISION AND MISSION" section */
+  .section-spacer {
+    height: 30px; /* Adjust the spacing as needed */
+  }
+
+
+  /* Style for the "Get in Touch" section */
+/* Style for the "Get in Touch" section */
+.contact {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Style for the background image */
+  .background-image {
+    background-image: url('images/bg8.jpeg');
+    background-size: cover;
+    opacity: 0.5; /* Decrease the opacity of the background image (adjust the value as needed) */
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px; /* Add margin between the background image and the content below */
+    position: relative; /* Set the position to relative for proper absolute positioning of the form container */
+  }
+  
+  /* Style for the form container */
+  .form-container {
+    background-color: rgba(5, 37, 1, 0.9); /* Dark background color with increased opacity for the form */
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* Adjust the width as needed to fit your design */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  /* Style for the form elements */
+  .form-container input, .form-container textarea {
+    background-color: #fff;
+    color: #052501;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    opacity: 0.9; /* Increase the opacity of the form elements (adjust the value as needed) */
+  }
+  
+  /* Style for the "Send" button */
+  .form-container button {
+    background-color: #052501;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .background-image {
+    background-image: url('../images/bg6.jpeg');
+    background-size: cover;
+    margin-bottom: 20px;
+    opacity: 0.9; /* Adjust the opacity as needed */
+}
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.documentations-section {
+    padding: 100px 0;
+}
+
+.white-bg {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.document {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #006400; /* Dark Green Background */
+    color: #fff;
+    border-radius: 8px;
+}
+
+.document h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.download-button {
+    background-color: #fff;
+    color: #006400; /* Dark Green Text */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #ddd;
+}
+
+/* Arrange buttons in rows with 4 buttons per row */
+.document {
+    display: inline-block;
+    width: calc(25% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+/* Clear margin-right for the last button in a row */
+.document:nth-child(4n) {
+    margin-right: 0;
+}
+/* Set a fixed height for all carousel slides */
+.carousel-item {
+    height: 700px; /* Adjust the height as needed */
+}
+
+/* Center the content vertically within the slides */
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Optionally, you can hide the second slide content to make it appear empty */
+.carousel-item:nth-child(2) .carousel-caption {
+    display: none;
+}
+.product_box img {
+    height: 230px; /* Adjust the height as needed */
+    width: 100%; /* Maintain the aspect ratio */
+}
